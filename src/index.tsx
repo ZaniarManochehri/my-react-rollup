@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-export interface YourComponentProps {
+export type YourComponentProps = {
     text: string;
 }
 
