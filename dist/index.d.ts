@@ -1,9 +1,9 @@
 import React from 'react';
 
-var ZMButton = function (_a) {
-    var label = _a.label;
-    return React.createElement("button", null, label);
+var YourComponent = function (_a) {
+    var text = _a.text;
+    return React.createElement("div", null, text);
 };
 
-export { ZMButton };
+export { YourComponent };
 //# sourceMappingURL=index.d.ts.map

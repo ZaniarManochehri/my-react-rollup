@@ -2,10 +2,10 @@
 
 var React = require('react');
 
-var ZMButton = function (_a) {
-    var label = _a.label;
-    return React.createElement("button", null, label);
+var YourComponent = function (_a) {
+    var text = _a.text;
+    return React.createElement("div", null, text);
 };
 
-exports.ZMButton = ZMButton;
+exports.YourComponent = YourComponent;
 //# sourceMappingURL=index.cjs.js.map

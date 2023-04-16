@@ -4,12 +4,12 @@
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["your-library-name"] = {}, global.React));
 })(this, (function (exports, React) { 'use strict';
 
-    var ZMButton = function (_a) {
-        var label = _a.label;
-        return React.createElement("button", null, label);
+    var YourComponent = function (_a) {
+        var text = _a.text;
+        return React.createElement("div", null, text);
     };
 
-    exports.ZMButton = ZMButton;
+    exports.YourComponent = YourComponent;
 
 }));
 //# sourceMappingURL=index.umd.js.map

@@ -1,11 +1,9 @@
-import React, {FC} from "react";
+import React, { FC } from 'react';
 
-type Props = {
-    label: string;
+export type YourComponentProps = {
+    text: string;
 }
 
-const ZMButton: FC<Props> = ({label}) => {
-    return <button>{label}</button>
-}
-
-export default ZMButton;
+export const YourComponent: FC<YourComponentProps> = ({ text }) => {
+    return <div>{text}</div>;
+};
