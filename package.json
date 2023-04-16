@@ -1,0 +1,24 @@
+{
+  "name": "my-react-rollup",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "watch": "rollup -cw"
+  },
+  "author": "Zaniar",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.20.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.0.4"
+  }
+}
