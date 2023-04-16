@@ -2,9 +2,9 @@
   "name": "my-react-rollup",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
-  "main": "src/index.tsx",
-  "module": "src/index.tsx",
+  "description": "test lib",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
