@@ -5,10 +5,5 @@ var YourComponent = function (_a) {
     return React.createElement("div", null, text);
 };
 
-var ZMButton = function (_a) {
-    var label = _a.label;
-    return React.createElement("button", { disabled: true }, label);
-};
-
-export { YourComponent, ZMButton };
+export { YourComponent };
 //# sourceMappingURL=index.esm.js.map
