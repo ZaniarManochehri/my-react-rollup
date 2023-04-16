@@ -11,12 +11,12 @@ export default {
         },
         {
             file: 'dist/index.esm.js',
-            format: 'esm',
+            format: 'es',
             sourcemap: true
         },
         {
             file: 'dist/index.d.ts',
-            format: 'esm',
+            format: 'es',
             sourcemap: true
         },
         {
@@ -47,5 +47,6 @@ export default {
             useTsconfigDeclarationDir: true
         })
     ],
+    declaration: true,
     external: ['react', 'react-dom']
 };

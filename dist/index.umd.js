@@ -4,8 +4,7 @@
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["your-library-name"] = {}, global.React));
 })(this, (function (exports, React) { 'use strict';
 
-    var YourComponent = function (_a) {
-        var text = _a.text;
+    const YourComponent = ({ text }) => {
         return React.createElement("div", null, text);
     };
 
