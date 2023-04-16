@@ -1,1 +1,5 @@
-export * from './components'
+import {YourComponent} from "./YourComponent";
+
+export {
+    YourComponent,
+}
